@@ -6,6 +6,12 @@ An app that outlines a day-of schedule for kitchen appliances for a holiday meal
 
 Like this, but more interactable and prettier.
 
+## Tech Stuff
+Python 3.7.1
+
+### Useage
+'''python dinner-party-gantt.py'''
+
 ## Requirements
 Have default appliance/work types
 - Stovetop
