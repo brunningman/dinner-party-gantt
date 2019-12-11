@@ -2,7 +2,8 @@
 
 An app that outlines a day-of schedule for kitchen appliances for a holiday meal i.e. Thanksgiving.
 
-
+[https://docs.google.com/spreadsheets/d/1v9uQES9m871BIJ04I8L4c07xW07EnZ6EvMOhztTdcvo/edit?usp=sharing]
+Day of tab
 
 Like this, but more interactable and prettier.
 
@@ -10,7 +11,10 @@ Like this, but more interactable and prettier.
 Python 3.7.1
 
 ### Useage
+Run Server
 '''python dinner-party-gantt.py'''
+Build/Watch for Dev (from /app/public directory)
+'''npm run watch'''
 
 ## Requirements
 Have default appliance/work types
