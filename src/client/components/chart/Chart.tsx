@@ -11,7 +11,7 @@ const ChartContainer = styled.div`
 
 const populateRows = () => {
   const test: number[] = [1, 2, 3];
-  return test.map(() => <ChartRow />);
+  return test.map((item: number) => <ChartRow key={item} />);
 };
 
 const Chart: FunctionComponent = () => {
