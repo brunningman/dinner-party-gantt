@@ -18,3 +18,7 @@ Meal Plan
 	  -	Tool/Appliance/Space: The method for completing the step. Different tools would have different configurable attributes, ie oven temp, number of burners, fridge space.
   -	Cooks: Number of people cooking, which raises the max attention level
 	-	Finish Time: The user desired time for full meal completion
+
+# Inspiration
+Check the "Day of" tab in this spreadsheet for the inspiration behind this project
+https://docs.google.com/spreadsheets/d/1v9uQES9m871BIJ04I8L4c07xW07EnZ6EvMOhztTdcvo/edit?usp=sharing
