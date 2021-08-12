@@ -1,7 +1,6 @@
 import React, { useState, FunctionComponent, MouseEvent } from 'react';
 import styled from 'styled-components';
 
-import AddStepModal from './AddStepModal';
 
 const ToolShelfContainer = styled.div`
   height: 50px;
@@ -27,7 +26,6 @@ const ToolShelf: FunctionComponent = () => {
   return (
     <ToolShelfContainer>
       <AddButton onClick={handleClick}>+ Add Step</AddButton>
-      <AddStepModal modalIsOpen={modalIsOpen} setModalIsOpen={setModalIsOpen} />
     </ToolShelfContainer>
   );
 };
