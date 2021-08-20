@@ -1,19 +1,10 @@
-export interface Locales {
-  oven: 'oven';
-  stovetop: 'stovetop';
-  countertop: 'countertop';
-  refridgerator: 'refridgerator';
-  microwave: 'microwave';
-  riceCooker: 'rice cooker';
-  instantPot: 'instant pot';
-  slowCooker: 'slow cooker';
-}
+import { Locales } from '../types'
 
-export const LOCALES = {
+export const LOCALES: Locales = {
   oven: 'oven',
   stovetop: 'stovetop',
   countertop: 'countertop',
-  refridgerator: 'refridgerator',
+  refrigerator: 'refrigerator',
   microwave: 'microwave',
   riceCooker: 'rice cooker',
   instantPot: 'instant pot',
